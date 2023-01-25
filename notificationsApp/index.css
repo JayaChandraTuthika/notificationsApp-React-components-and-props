@@ -1,0 +1,54 @@
+* {
+  font-family: "roboto";
+}
+body {
+  margin: 0;
+}
+
+.bg-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+}
+.heading {
+  color: #0f172a;
+}
+.inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.button {
+  padding: 30px;
+  font-size: 30px;
+  color: white;
+  border-radius: 5px;
+  width: 100%;
+  margin-top: 10px;
+}
+.icon {
+  height: 25px;
+  margin-right: 10px;
+}
+.blue {
+  background-color: #0b69ff;
+}
+.green {
+  background-color: #2dca73;
+}
+.yellow {
+  background-color: #ffb800;
+}
+.red {
+  background-color: #ff0b37;
+}
+
+@media screen and (min-width: 768px) {
+  .inner {
+    max-width: 80%;
+  }
+}
